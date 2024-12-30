@@ -17,7 +17,7 @@ type User struct {
 }
 
 // Global variable for the Laravel API URL
-const apiURL = "http://localhost:8000/api/users"
+const apiURL = "http://localhost:8001/api/users"
 
 // Function to fetch all users
 func getUsers() ([]User, error) {
